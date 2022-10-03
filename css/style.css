@@ -7,7 +7,7 @@
 }
 
 .column {
-  height: 70vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   padding: 40px;
@@ -102,6 +102,17 @@
   background-color: white;
   color: gray;
   font-weight: bold;
+}
+
+.header__profile {
+  height: 100px;
+  width: 250px;
+  background-color: #4066ed;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */
