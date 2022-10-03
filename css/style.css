@@ -1,7 +1,8 @@
-*{
+* {
   box-sizing: border-box;
 }
-.column{
+
+.column {
   height: 70vh;
   display: flex;
   align-items: center;
@@ -12,18 +13,18 @@
   font-size: 2rem;
 }
 
-.sedans{
+.sedans {
   height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 40px;
-  background-color: #e28525;;
+  background-color: #e28525;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
-.suvs{
+.suvs {
   height: inherit;
   display: flex;
   flex-direction: column;
@@ -32,7 +33,7 @@
   background-color: #016972;
 }
 
-.luxury{
+.luxury {
   height: inherit;
   display: flex;
   flex-direction: column;
@@ -43,7 +44,7 @@
   border-bottom-right-radius: 20px;
 }
 
-.button__column{
+.button__column {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,3 +58,5 @@
   border: none;
   font-weight: bold;
 }
+
+/*# sourceMappingURL=style.css.map */
