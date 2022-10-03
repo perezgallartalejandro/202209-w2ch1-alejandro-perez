@@ -1,0 +1,36 @@
+{
+  "name": "challenge-1-semana2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass sass/_style.scss css/style.css --watch",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0",
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "braces": "^3.0.2",
+    "fill-range": "^7.0.1",
+    "binary-extensions": "^2.2.0",
+    "immutable": "^4.1.0",
+    "chokidar": "^3.5.3",
+    "is-extglob": "^2.1.1",
+    "glob-parent": "^5.1.2",
+    "anymatch": "^3.1.2",
+    "is-binary-path": "^2.1.0",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "picomatch": "^2.3.1",
+    "normalize-path": "^3.0.0",
+    "to-regex-range": "^5.0.1",
+    "source-map-js": "^1.0.2",
+    "readdirp": "^3.6.0"
+  },
+  "keywords": [],
+  "description": ""
+}
