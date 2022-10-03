@@ -7,19 +7,17 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title>Order summary component</title>
 </head>
 <body>
-  <header>
-    <img src="/public/images/ordersummary.jpg" alt="women listening music">
-  </header>
-  <main>
+  <main class="summary">
+    <img class="summary__image" src="/public/images/ordersummary.jpg" alt="women listening music">
     <h1 class="main__title">Order Summary</h1>
     <span class="main__text"> You can now listen to millions of songs, audiobooks and podcast on any device anywhere you like</span>
     <i class="fa-solid fa-music"></i>
-    <span class="main__plan">Annual Plan</span>
-    <span class="main__price">$59,99/year</span>
+    <span class="main__plan  plan--text">Annual Plan</span>
+    <span class="main__plan  plan--price">$59,99/year</span>
     <button class="button button__plan">Change</button>
     <button class="button button__payment">Proceed to payment</button>
     <button class="button button__cancel">Cancel Order</button>
